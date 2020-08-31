@@ -167,5 +167,10 @@ const headerOptions = (title: string, navigation: any) => {
     headerLeft: () => {
       return <IconButton {...navigation} />;
     },
+    headerStyle: {
+      elevation: 0,
+      shadowOpacity: 0,
+      borderBottomWidth: 0.5,
+    },
   };
 };
